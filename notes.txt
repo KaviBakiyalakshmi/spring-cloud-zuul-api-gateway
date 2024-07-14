@@ -1,0 +1,12 @@
+Spring cloud Zuul routes details
+http://localhost:8080/actuator/routes
+
+products microservices endpoints
+http://localhost:8082/products
+
+Endpoints through gate way, service discovery register with products endpoints
+http://localhost:8080/springboot-products-microservies/products
+
+Eureka server register list of all microservices end points
+http://localhost:8761/
+
